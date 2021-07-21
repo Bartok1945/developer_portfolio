@@ -18,7 +18,11 @@ export default function Navbar() {
                 </div>
               
                 <div className="right">
-                  
+                  <div className="menu">
+                      <span className="line1"></span>
+                      <span className="line2"></span>
+                      <span className="line3"></span>
+                  </div>
                 </div>
             </div>
 
