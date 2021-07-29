@@ -8,7 +8,9 @@ export default function Intro() {
     useEffect( () => {
         init(textRef.current, {
             showCursor: false,
-            strings: ["Web Developer", "Sound Designer", "Musician", "Pizza Expert"],
+            backDelay: 1500,
+            showCursor: true,
+            strings: ["<Web Developer>", "Sound Designer", "Musician", "Pizza Expert"],
 
         });
     }, []);
